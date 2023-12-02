@@ -2,6 +2,9 @@
 
 "pyCliTable" is a Python package designed to simplify the display of data in a tabular format within the command-line interface (CLI). This package offers an intuitive and user-friendly way to present structured data, making it easy for developers and users to visualize information neatly organized into rows and columns. With customizable styling options, "pyCliTable" streamlines the process of creating tables, enhancing the readability and presentation of data for CLI applications.
 
+### Installation:
+`pip install pyCliTable`
+
 ### Example:
 ```
 from pyclitable import pyCliTable
@@ -27,7 +30,7 @@ data = [
 
 config = ["Green", "italic"]
 header_config = ["bold", "red"]
-result = table(data=data, header_config=header_config, word_space=1)
+result = pyCliTable.table(data=data, header_config=header_config, word_space=1)
 print(result)
 ```
 

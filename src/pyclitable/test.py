@@ -1,5 +1,5 @@
 from add_one_babu import example
-import pyclitable
+from pyclitable import pyCliTable
 
 header_data = [
     {"Name":
@@ -32,7 +32,7 @@ data = [
 
 config = ["Green", "italic"]
 header_config = ["bold", "red"]
-result = pyclitable.main(data=data, header_config=header_config, word_space=1)
+result = pyCliTable.table(data=data, header_config=header_config, word_space=1)
 print(result)
 
 print(example.add_one(3))
