@@ -33,7 +33,7 @@ class Color():
         return self.green + arg + '\033[0m'
 
     def Yellow(self, arg):
-        return self.yellow + arg + + '\033[0m'
+        return self.yellow + arg + '\033[0m'
 
     def Blue(self, arg):
         return self.blue + arg + '\033[0m'
