@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyCliTable"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Baboucarr", email="bbabucarr32@gmail.com" },
 ]
