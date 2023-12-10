@@ -4,6 +4,8 @@
 
 Additionally, the intelligent algorithm within pyCliTable detects missing data within a specific row and seamlessly replaces it with '**\***', ensuring a continuous, polished presentation of your data. This feature seamlessly integrates into its functionality, allowing pyCliTable to maintain its magic throughout.
 
+![pyCliTable image example.](/images/img1.png)
+
 ### Installation:
 
 `pip install pyCliTable`
@@ -34,7 +36,9 @@ data = [
 
 config = ["Green", "italic"]
 header_config = ["bold", "red"]
-result = pyCliTable.table(data=data, header_config=header_config, word_space=1)
+
+result = pyCliTable.table(data=data, config=config, table_color="red", header_config=header_config, word_space=1)
+
 print(result)
 ```
 
