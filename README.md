@@ -2,7 +2,7 @@
 
 "pyCliTable" is a Python package designed to simplify the display of data in a tabular format within the command-line interface (CLI). This package offers an intuitive and user-friendly way to present structured data, making it easy for developers and users to visualize information neatly organized into rows and columns. With customizable styling options, "pyCliTable" streamlines the process of creating tables, enhancing the readability and presentation of data for CLI applications.
 
-    Additionally, the intelligent algorithm within pyCliTable detects missing data within a specific row and seamlessly replaces it with '*****', ensuring a continuous, polished presentation of your data. This feature seamlessly integrates into its functionality, allowing pyCliTable to maintain its magic throughout.
+Additionally, the intelligent algorithm within pyCliTable detects missing data within a specific row and seamlessly replaces it with '**\***', ensuring a continuous, polished presentation of your data. This feature seamlessly integrates into its functionality, allowing pyCliTable to maintain its magic throughout.
 
 ### Installation:
 
