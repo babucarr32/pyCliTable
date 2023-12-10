@@ -9,6 +9,7 @@ Additionally, the intelligent algorithm within pyCliTable detects missing data w
 ### Installation:
 
 `pip install pyCliTable`
+Or see https://pypi.org/project/pyCliTable/
 
 ### Example:
 
