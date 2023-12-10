@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/babucarr32/pyClicTable"
-Issues = "https://github.com/babucarr32/pyClicTable/issues"
+Homepage = "https://github.com/babucarr32/pyCliTable"
+Issues = "https://github.com/babucarr32/pyCliTable/issues"
