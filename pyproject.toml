@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyCliTable"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
   { name="Baboucarr", email="bbabucarr32@gmail.com" },
 ]
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/babucarr32/pyCliTable"
 Issues = "https://github.com/babucarr32/pyCliTable/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyclitable"]
